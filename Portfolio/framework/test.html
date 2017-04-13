@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Portfolio Application</title>
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="img-responsive" src="http://placehold.it/100x100">
+                </div>
+                <div class="col-md-6">
+                    <H1 class="text-right">Chirag Poddar</H1>
+                    <H3 class="text-right">Associate Developer</H3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <img class="img-responsive" src="http://placehold.it/2400x800">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <H3> Featured Work </H3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-1">
+                    <img class="img-responsive" src="http://placehold.it/500x500" data-toggle="modal" data-target="#project1">
+                    <p class="text-center"> Frequent 1 </p>
+                    <a href=""><p class="text-center">url 1</p></a>
+                </div>
+                <div class="col-md-4 col-sm-1">
+                    <img class="img-responsive" src="http://placehold.it/500x500" data-toggle="modal" data-target="#project1">
+                    <p class="text-center"> Frequent 2</p>
+                    <a href=""><p class="text-center">url 2</p></a>
+                </div>
+                <div class="col-md-4 col-sm-1">
+                    <img class="img-responsive" src="http://placehold.it/500x500" data-toggle="modal" data-target="#project1">
+                    <p class="text-center"> Frequent 3</p>
+                    <a href=""><p class="text-center">url 3</p></a>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img class="img-responsive" src="http://placehold.it/900x500">
+                            This was my first project in this class. I learned a lot about HTML and CSS.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="js/jquery-3.2.0.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>

@@ -1,13 +1,33 @@
 import fresh_tomatoes
 import movie
 
-avatar = movie.Movie("Avatar", "Avatar Desc",
-                     "https://www.google.co.in/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwiFk7-1y4bTAhWDa7wKHRakCe4QjRwIBw&url=http%3A%2F%2Fwww.foxmovies.com%2Fmovies%2Favatar%2Fposters%2F251%2Favatar-poster-01&bvm=bv.151325232,d.dGc&psig=AFQjCNGpuLOZdADfZBwmLl38nMFaU_WVeg&ust=1491250557945408",
+#Movie 1
+avatar = movie.Movie("Avatar",
+                     "https://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg",
                      "https://www.youtube.com/watch?v=cRdxXPV9GNQ")
-movies = [avatar, avatar, avatar]
+#Movie 2
+znmd = movie.Movie("Zindagi Na Milegi Dobara",
+                   "https://upload.wikimedia.org/wikipedia/en/3/3d/Zindaginamilegidobara.jpg",
+                   "https://www.youtube.com/watch?v=ifIBOKCfjVs")
+#Movie 3
+wows = movie.Movie("The Wolf of Wall Street",
+                   "http://cdn1.bigcommerce.com/n-ou1isn/5irfm624/products/101/images/287/WolfofWallstreet_CastPoster__22694.1395356658.352.316.jpg?c=2",
+                   "https://www.youtube.com/watch?v=iszwuX1AK6A")
+#Movie 4
+mib = movie.Movie("Men In Black",
+                  "http://assets.flicks.co.nz/images/movies/poster/c9/c96c08f8bb7960e11a1239352a479053_500x735.jpg",
+                  "https://www.youtube.com/watch?v=HYUd7AOw_lk")
+#Movie 5
+udaan = movie.Movie("Udaan",
+                    "http://www.impawards.com/intl/india/2010/posters/udaan.jpg",
+                    "https://www.youtube.com/watch?v=wEJxe2bE-cE")
+#Movie 6
+tzp = movie.Movie("Taare Zameen Par",
+                  "https://images-na.ssl-images-amazon.com/images/M/MV5BNTVmYTk2NjAtYzY3MS00YjFjLTlkYzktYzg3YzMyZDQyOWRiXkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_QL50_SY1000_CR0,0,692,1000_AL_.jpg",
+                  "https://www.youtube.com/watch?v=tn_2Ie_jtX8")
 
-#fresh_tomatoes.open_movies_page(movies)
+#Creating a list of all the above movies
+movies = [avatar, znmd, wows, mib, udaan, tzp]
 
-print movie.Movie.__name__
-print movie.Movie.__doc__
-print movie.Movie.__module__
+#using fresh_tomatoes to see the application in web browser
+fresh_tomatoes.open_movies_page(movies)

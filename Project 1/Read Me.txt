@@ -1,0 +1,8 @@
+movie.py : Defines the Class Movie and initializes the variables
+fresh_tomatoes.py : Starts the browser displaying the required output
+movie_caller.py : This file defines the movie list and uses the fresh_tomatoes.py to start the application
+
+
+Steps to get the required output:
+1) Run the Python File 'Movie_Caller" to start the application
+2) Click on the movie tabs to view the trailers
